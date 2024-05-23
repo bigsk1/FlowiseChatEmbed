@@ -1,2 +1,8 @@
 node_modules
 .idea
+
+.env
+env
+
+index.html
+././index.html
