@@ -38,14 +38,14 @@ const indexConfig = {
     typescriptPaths({ preserveExtensions: true }),
     terser({ output: { comments: false } }),
 
-    serve({
+    /*/serve({
       open: true,
       verbose: true,
       contentBase: ['dist'],
       host: 'localhost',
       port: 5678,
     }),
-    livereload({ watch: 'dist' }),
+    livereload({ watch: 'dist' }), /*/
   ],
 };
 

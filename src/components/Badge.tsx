@@ -47,7 +47,7 @@ export const Badge = (props: Props) => {
       Powered by
       <a
         ref={liteBadge}
-        href={'https://flowiseai.com'}
+        href={'http://127.0.0.1:3009'}
         target="_blank"
         rel="noopener noreferrer"
         class="lite-badge"
